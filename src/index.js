@@ -13,7 +13,7 @@ import "./styles.css";
 
 softShadows();
 
-const HDRI_PATH = '/dikhololo_night_4k.hdr';
+const HDRI_PATH = 'https://cloud-oow5qpsfa-hack-club-bot.vercel.app/0dikhololo_night_4k.hdr';
 
 function Instructions() {
   return (
