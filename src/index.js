@@ -10,7 +10,7 @@ import { Physics, usePlane, useBox, useSphere, useCylinder } from "@react-three/
 import { useRef, Suspense, useState, useEffect, useMemo } from 'react';
 import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
-const HDRI_PATH = 'https://cosmicplayground.vercel.app/dikhololo_night_4k.hdr';
+const HDRI_PATH = 'https://cloud-oow5qpsfa-hack-club-bot.vercel.app/0dikhololo_night_4k.hdr';
 
 function ExplosionParticles({ position, color }) {
   const particleCount = 50;
