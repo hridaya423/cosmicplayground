@@ -464,19 +464,13 @@ function Scene() {
         />
 
         <Suspense fallback={null}>
-         <Environment 
+        <Environment 
   files={HDRI_PATH} 
-  background={true} 
+  background
   blur={0.5}
   intensity={1.2}
   ground={{ scale: 50, height: 0, radius: 100 }}
-  onError={(error) => {
-    console.error('Failed to load environment:', error);
-    scene.background = new THREE.Color('#1a1a1a');
-  }}
->
-  <color attach="background" args={['#1a1a1a']} />
-</Environment>
+/>
           
           <Physics ref={physicsRef} gravity={[0, slowMotion ? -2 : -9.81, 0]}
             defaultContactMaterial={{ friction: 0.1, restitution: 0.7 }}>
